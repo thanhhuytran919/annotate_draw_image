@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Annotation</title>
+  </head>
+  <body>
+    <h1>Image Annotation</h1>
+    <form action="/annotate" method="post" enctype="multipart/form-data">
+      Upload an image: <input type="file" name="image" /><br />
+      X: <input type="number" name="x" /><br />
+      Y: <input type="number" name="y" /><br />
+      W: <input type="number" name="w" /><br />
+      H: <input type="number" name="h" /><br />
+      <input type="submit" value="Annotate" />
+    </form>
+  </body>
+</html>
