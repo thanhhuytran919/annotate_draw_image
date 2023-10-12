@@ -46,7 +46,7 @@ Make sure you have the following prerequisites installed:
    ```bash
    python app.py
 2. Access the application in your web browser by navigating to http://localhost:5000.
-3. Follow the instructions on the web page to upload an image, specify coordinates, and annotate the selected region. Images test in folder Test_img.
+3. Follow the instructions on the web page to upload an image, specify coordinates, and annotate the selected region. Images test in folder Test_img. Image upload will save in /static/uploads and images result will save in /static.
 4. The annotated image will be displayed on the web page.
 5. You can also find the annotated image in the static directory of the project.
 
